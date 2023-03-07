@@ -2,15 +2,15 @@
 webook settings
 
 Webhooks = {
-	["createCode"] = {
-		link = "discordURL",
-		avatar = "imageURL",
-		username = "webhookUsername"
+	['createCode'] = {
+		link = 'discordURL',
+		avatar = 'imageURL',
+		username = 'webhookUsername'
 	}
 }
 --]]
 
-local numbers = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9"}
+local numbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'}
 
 function randomTable(table)
     return table[math.random (#table)]
